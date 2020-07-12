@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# project specific test files
+store/benchmark/testdata/file/*
+store/benchmark/testdata/scratchpad/*
+store/benchmark/testdata/sync-scratchpad/*
+store/benchmark/testdata/treepad/*
+store/benchmark/testdata/sync-treepad/*
+store/benchmark/testdata/badger/*
+store/benchmark/testdata/bolt/*
+
+# storage specific test files
+store/file/data/*
+store/file/sync-data/*
+store/file/bash/database
+store/bolt/data/*
+store/badger/data/*
+
+
+# idea
+.idea
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
